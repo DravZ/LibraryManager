@@ -35,6 +35,10 @@ public class Book {
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
         System.out.println("Year of Publication: " + publicationYear);
-        System.out.println("Status: " + (isAvailable ? "Yes" : "No"));
+        System.out.println("Status: " + (isAvailable ? "Available" : "Not Available"));
+    }
+
+    public String getTitle(){
+        return this.title;
     }
 }
